@@ -1,0 +1,21 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int ilosc = (0);
+    double cenatorby = 0.60;
+
+
+    cout << "Podaj ilosc:" ;
+    cin >> ilosc ;
+    
+    double Obliczenie;
+    Obliczenie = ilosc * cenatorby;
+
+    cout << "Wartosc: " << Obliczenie << endl;
+    
+    return 0;
+
+}
