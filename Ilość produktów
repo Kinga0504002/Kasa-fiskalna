@@ -1,0 +1,16 @@
+#include <jostream>
+przy użyciu przestrzeni nazw std;
+int main()
+{
+ podwójny iloscproduktu(0), cenaproduktu(0); 
+    
+    cout << "Podaj ilość produktu : ";    
+    cin >> iloscproduktu;
+ cout << "Podaj cenę produktu:"; 
+    cin >> cenaproduktu;
+
+    double const wynik(iloscproduktu * cenaproduktu);   
+
+    cout << iloscproduktu << " * " << cenaproduktu << " = " << wynik << endl; 
+ powrót 0;
+}
