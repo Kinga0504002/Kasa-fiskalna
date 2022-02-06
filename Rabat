@@ -1,0 +1,20 @@
+#include <jostream>
+
+int main()
+{
+ przy użyciu przestrzeni nazw std;
+
+ const podwójny RABAT = 20;
+
+    cout << "Podaj wartość zakupów: ";
+    int WartoscZakupow;
+    cin >> WartoscZakupow;
+
+ podwójne Obliczenie;
+    Obliczenie = RABAT / 100 * WartoscZakupow;
+
+    cout << "Wartość rabatu: " << Obliczenie << endl;
+    cout << WartoscZakupow << " - " << Obliczenie << " = " << WartoscZakupow- Obliczenie << endl;
+
+ powrót 0;
+}
