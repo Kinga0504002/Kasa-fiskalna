@@ -1,0 +1,34 @@
+#include <jostream>
+przy użyciu przestrzeni nazw std;
+int main()
+{
+	int rok, miesiac, dzien;
+	cout << "Podaj rok urodzenia";
+	cin >> rok;
+	cout << "Podaj miesiac urodzenia";
+	cin >> miesiac;
+	cout << "Podaj dzien urodzenia";
+	cin >> dzien;
+ cout << " << rok << ". << miesiac << ". " << dzien << endl;
+
+	if (rok <= 2003)
+		cout << "Zatwierdzone" << endl;
+ inaczej
+		cout << "Nie zatwierdzone" << endl;
+	
+	
+	
+	
+	int wiek(0);
+
+	
+	cout << "Podaj wiek:";
+	cin >> wiek;
+
+	
+	if (wiek >= 18)
+		cout << "Zatwierdzone" << endl;
+ inaczej
+		cout << "Nie zatwierdzone" << endl;
+
+}
