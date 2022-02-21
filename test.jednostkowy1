@@ -1,0 +1,97 @@
+//TEST JEDNOSTKOWY 1
+
+
+#include "pch.h"
+#include "CppUnitTest.h"
+#include "MyClass.h"
+
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+
+namespace UnitTest4
+{
+	TEST_CLASS(MyClassUnitTest4)
+	{
+	public:
+	 double cenatorby2;
+   int ilosc;
+	 
+	
+	 	TEST_METHOD(TestMethod1)
+		{
+			double cenatorby2 = 1.00;
+
+			 mc.nazwa = name;
+			std::string name = "torba2";
+			MyClass mc();
+			Assert::AreEqual(name, mc.nazwa);
+		}
+	};
+}
+		
+	
+
+//TEST JEDNOSTKOWY2
+
+
+#include "pch.h"
+#include "CppUnitTest.h"
+#include "MyClass.h"
+
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+
+namespace UnitTest4
+{
+	TEST_CLASS(MyClassUnitTest4)
+	{
+	public:
+	 double cenatorby1;
+   int ilosc;
+	 
+	TEST_METHOD(TestMethod1)
+		{
+			double cenatorby1 = 0.60;
+
+			 mc.nazwa = name;
+			std::string name = "torba1";
+			MyClass mc();
+			Assert::AreEqual(name, mc.nazwa);
+		}
+	};
+}
+	 
+		
+		
+
+
+//TEST JEDNOSTKOWY 3
+
+
+#include "pch.h"
+#include "CppUnitTest.h"
+#include "MyClass.h"
+
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+
+namespace UnitTest4
+{
+	TEST_CLASS(MyClassUnitTest4)
+	{
+	public:
+	 int ilosc;
+	 double cenatorby1;
+   
+	 
+		TEST_METHOD(TestMethod1)
+		{
+			int ilosc=5;
+
+			 mc.nazwa = name;
+			std::string name = "torba1";
+			MyClass mc();
+			Assert::AreEqual(0, 1);
+		}
+	};
+}
+	 
+		
+	
